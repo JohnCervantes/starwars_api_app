@@ -14,7 +14,7 @@ function User(props) {
   //     )
   // }
   return (
-    <Card style={{ width: "200px" }}>
+    <Card style={{ width: "200px", margin: '10px'}}>
       <Card.Header style={{ fontSize: "22px", fontWeight: "bold" }}>
         {user.name}
       </Card.Header>

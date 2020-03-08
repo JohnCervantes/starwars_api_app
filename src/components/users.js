@@ -50,7 +50,8 @@ class Users extends React.Component {
             })}
         </Container>
         <br />
-        <Button onClick={() => this.getNewData("prev")}> Previous </Button>
+        <Button onClick={() => this.getNewData("prev")}> Previous </Button>{" "}
+        &nbsp;
         <Button onClick={() => this.getNewData("next")}> Next </Button>
       </div>
     );
